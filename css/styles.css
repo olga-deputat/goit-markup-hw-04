@@ -1,0 +1,235 @@
+:root {
+ --accent-color: #2E2F42;
+}
+.list {
+  list-style: none;
+}
+
+.link {
+    text-decoration: none;
+}
+
+body {
+    font-family: 'Roboto', sans-serif; 
+    color: #434455;
+    background-color: #FFFFFF;
+}
+/* ========= HEADER =========*/ 
+.logo {
+    color: var(--IRIS, #4D5AE5);
+    font-family: 'Raleway', sans-serif;
+    font-size: 18px;
+    font-weight: 800;
+    line-height: 1.17; 
+    letter-spacing: 0.54px;
+    text-transform: uppercase;
+}
+.link-logo-web {
+    color: var(--NAVY-BLUE, #2E2F42);
+    font-family: 'Raleway', sans-serif;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: 1.17;
+    letter-spacing: 0.54px;
+    text-transform: uppercase;
+}
+
+.menu-link {
+    color: var(--NAVY-BLUE, #2E2F42);
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 1.5;
+    letter-spacing: 0.32px;
+}
+
+.menu-link:hover,
+.menu-link:focus {
+  color: #404BBF;  
+  text-decoration: underline var(--nav-color,#404BBF);
+} 
+
+.adress-nav{
+    font-style: normal;
+}
+
+.contact-text {
+    color: #434455;
+    letter-spacing: 0.02em;
+    line-height: 1.5;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.contact-text:hover,
+.contact-text:focus {
+  color: #404BBF;  
+  text-decoration: underline var(--nav-color,#404BBF);
+} 
+
+/* ========= /HEADER =========*/ 
+
+
+
+/* ========= MAIN ==========*/
+.main-one {
+    background: var(--NAVY-BLUE, #2E2F42);
+}
+
+.title-main-one {
+    color: var(--WHITE, #FFF);
+    text-align: center;
+    font-size: 56px;
+    font-weight: 700;
+    line-height: 1.07;
+    letter-spacing: 1.12px;
+}
+
+.main-btn {
+    background: #4D5AE5;
+    font-family: "Roboto", sans-serif;
+    color: var(--WHITE, #FFF);
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 1.5;
+    letter-spacing: 0.64px;
+    cursor:pointer;
+}
+
+.main-btn:hover,
+.main-btn:focus {
+    background: #404BBF;
+}
+
+.recorces-list-title {
+    color: var(--NAVY-BLUE, #2E2F42);
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 1.2;
+    letter-spacing: 0.4px;
+}
+
+.recorces-list-text {
+    color: var(--SLATE, #434455);
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 1.5;
+    letter-spacing: 0.32px; 
+}
+
+.doing-list{
+    color: var(--NAVY-BLUE, #2E2F42);
+    text-align: center;
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 1.11;
+    letter-spacing: 0.72px;
+    text-transform: capitalize;
+}
+
+.main-four{
+    background-color: #F4F4FD;
+}
+
+.team-title {
+    color: var(--NAVY-BLUE, #2E2F42);
+    text-align: center;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 1.11;
+    letter-spacing: 0.72px;
+    text-transform: capitalize;
+}
+
+.team-list{
+    background-color: #FFFFFF;
+}
+
+.team{
+    background-color: #FFFFFF;
+}
+.title-img-team {
+    color: var(--NAVY-BLUE, #2E2F42);
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 1.2;
+    letter-spacing: 0.4px;
+}
+
+.text-img-team {
+    color: var(--SLATE, #434455);
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 1.5;
+    letter-spacing: 0.32px;
+}
+
+/* ======== /MAIN ========= */
+
+
+/* ======== FOOTER ========= */
+.page-footer {
+    background: var(--NAVY-BLUE, #2E2F42);
+}
+
+.logo-footer {
+    color: var(--CLOUD, #F4F4FD);
+    font-family: 'Raleway', sans-serif;
+    font-size: 18px;
+    font-weight: 800;
+    line-height: 1.17; 
+    letter-spacing: 0.54px;
+    text-transform: uppercase;
+}
+
+.text-footer {
+    color: var(--CLOUD, #F4F4FD);
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 1.5;
+    letter-spacing: 0.32px;
+}
+/* ======== /FOOTER ========= */
+
+
+/* ======= PORTFOLIO ========*/
+.portfolio-btn {
+    text-align: center;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 1.5;
+    letter-spacing: 0.64px;
+    background-color: #F4F4FD;
+    color: #4d5ae5; 
+    cursor: pointer;
+    font-family: "Roboto", sans-serif 
+}
+
+.portfolio-btn:hover,
+.portfolio-btn:focus {
+    background: #404BBF;
+    color: #FFFFFF;
+}
+
+.img-portfolio{
+
+}
+
+.title-img-portfolio {
+    color: #2E2F42;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 1.2;
+    letter-spacing: 0.4px;
+}
+
+.text-img-portfolio {
+    color: #434455;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 1.5;
+    letter-spacing: 0.32px;
+}
+/* ======= /PORTFOLIO ========*/
