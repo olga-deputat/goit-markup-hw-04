@@ -79,7 +79,7 @@ display: flex;
 
 .page-nav{
     display: inline-flex;
-    margin-right: 292px;
+    margin-right: auto;
     margin-top: 24px;
     margin-bottom: 24px;
     margin-left: 0px;
@@ -149,7 +149,6 @@ display: flex;
 .main-one {
     padding-bottom: 120px;
     box-sizing: border-box;
-    padding: 188px 0;
 }
 
 .conteiner-page{
@@ -375,7 +374,7 @@ display: flex;
     display: flex;
     flex-wrap: wrap;
     gap: 24px;
-    margin: 96px 186px 72px 186px;
+    margin: 0 186px 72px 186px;
     justify-content: center;
 }
 .portfolio-btn {
@@ -415,7 +414,6 @@ display: flex;
     display: flex;
     flex-wrap: wrap;
     gap: 24px;
-    margin-bottom: 120px;
     row-gap: 48px;
 }
 .text-img-portfolio{
