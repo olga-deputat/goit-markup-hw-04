@@ -16,7 +16,7 @@ ul{
 
 /* ====/reset ====*/
 
-.conteiner{
+.container{
     width: 1158px;
     padding-left: 15px;
     padding-right: 15px;
@@ -39,8 +39,15 @@ body {
     color: #434455;
     background-color: #FFFFFF;
 }
+
+img{
+    display: block;
+}
 /* ========= HEADER =========*/ 
 
+.page-header{
+    border-bottom: 1px solid #e7e9fc;
+}
 .conteiner-header{
 display: flex;
 }
@@ -78,11 +85,16 @@ display: flex;
     margin-bottom: 24px;
     margin-left: 0px;
     padding: 0px;
+    align-items: center;
 }
 
+ menu{
+    gap: 40px;
+}
 
 .menu-item{
     margin-right: 40px;
+    padding: 24px 0;
 }
 
 .menu-link {
@@ -104,6 +116,7 @@ display: flex;
     display: flex;
     margin-top: 24px;
     margin-bottom: 24px;
+    align-items: center;
 }
 
 .contact{
@@ -130,6 +143,10 @@ display: flex;
 
 
 /* ========= MAIN ==========*/
+.page-main{
+    padding: 188px 0;
+}
+
 .main-one {
     padding-bottom: 120px;
     box-sizing: border-box;
@@ -155,6 +172,7 @@ display: flex;
     line-height: 1.07;
     letter-spacing: 1.12px;
     margin-bottom: 48px;
+    max-width: 496px;
 }
 
 .main-btn {
@@ -168,6 +186,11 @@ display: flex;
     cursor:pointer;
     border-radius: 4px;
     padding: 16px 32px;
+    display: block;
+    min-width: 169px;
+    height: 56px;
+    border: none;
+    margin-left: 168px;
 }
 
 .main-btn:hover,
@@ -177,6 +200,7 @@ display: flex;
 
 .main-two{
     margin-bottom: 120px;
+    padding: 120px 0
 }
 
 .recorces-list{
@@ -195,6 +219,7 @@ display: flex;
     font-weight: 500;
     line-height: 1.2;
     letter-spacing: 0.4px;
+    margin-bottom: 8px;
 }
 
 .recorces-list-text {
@@ -217,7 +242,8 @@ display: flex;
 }
 
 .main-three{
-margin-bottom: 120px;
+    margin-bottom: 120px;
+    padding-bottom: 120px;
 }
 
 .img-list{
@@ -227,6 +253,7 @@ margin-bottom: 120px;
 
 .main-four{
     background-color: #F4F4FD;
+    padding: 120px 0;
 }
 
 .team-title {
@@ -259,6 +286,7 @@ margin-bottom: 120px;
 
 .img-list{
     margin-bottom: 23px;
+    border-radius: 0px 0px 4px 4px; 
 }
 
 .text-card{
@@ -268,6 +296,7 @@ margin-bottom: 120px;
     justify-content: center;
     align-items: center;
     gap: 8px;
+    padding: 32px 0;
     
 }
 .title-img-team {
@@ -276,6 +305,8 @@ margin-bottom: 120px;
     font-weight: 500;
     line-height: 1.2;
     letter-spacing: 0.4px;
+    text-align: center;
+    margin-bottom: 8px;
    
 }
 
@@ -287,6 +318,7 @@ margin-bottom: 120px;
     line-height: 1.5;
     letter-spacing: 0.32px;
     margin-bottom: 8px;
+    text-align: center;
 }
 
 /* ======== /MAIN ========= */
@@ -295,14 +327,19 @@ margin-bottom: 120px;
 /* ======== FOOTER ========= */
 .page-footer {
     background: var(--NAVY-BLUE, #2E2F42);
+    padding: 100px 0;
 }
 
 .conteiner-footer{
     width: 1440px;
     height: 312px;
     box-sizing: border-box;
-    padding: 100px 1020px 100px 156px;
-    
+    padding: 100px 1020px 100px 156px; 
+}
+
+.logo-a{
+    display: inline-block;
+    margin-bottom: 16px;
 }
 
 .logo-footer {
@@ -330,13 +367,16 @@ margin-bottom: 120px;
 /* ======= PORTFOLIO ========*/
 .portfolio-nav{
     box-sizing: border-box;
+    padding-top: 96px; 
+    padding-bottom: 120px;
 }
 
 .list-portfolio{
     display: flex;
     flex-wrap: wrap;
     gap: 24px;
-    margin: 96px 286px 72px 286px;
+    margin: 96px 186px 72px 186px;
+    justify-content: center;
 }
 .portfolio-btn {
     text-align: center;
@@ -347,13 +387,17 @@ margin-bottom: 120px;
     background-color: #F4F4FD;
     color: #4d5ae5; 
     cursor: pointer;
-    font-family: "Roboto", sans-serif 
+    font-family: "Roboto", sans-serif;
+    padding: 12px 24px;
+    border: 1px solid #e7e9fc;
+    border-radius: 4px;
 }
 
 .portfolio-btn:hover,
 .portfolio-btn:focus {
     background: #404BBF;
     color: #FFFFFF;
+    border: 1px solid transparent;
 }
 
 .text-portfolio{
@@ -363,12 +407,36 @@ margin-bottom: 120px;
     align-items: flex-start;
     gap: 8px;
     align-self: stretch;
+    padding: 32px 16px;
+    border: 1px solid #e7e9fc; 
 }
 .card-portfolio{
     display: flex;
     flex-wrap: wrap;
     gap: 24px;
     margin-bottom: 120px;
+    row-gap: 48px;
+}
+.text-img-portfolio{
+    margin-bottom: 8px;
+}
+
+.h2-portfolio{
+    font-family: Roboto;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 24px; 
+    letter-spacing: 0.4px;
+}
+
+.p-portfolio{
+    font-family: Roboto;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px; 
+    letter-spacing: 0.32px;
 }
 .visually-hidden {
     position: absolute;
