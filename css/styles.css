@@ -14,7 +14,7 @@ ul{
     padding: 0;
 }
 
-img{
+img {
     display: block;
 }
 
@@ -245,8 +245,8 @@ display: flex;
 }
 
 .img-list{
-    display: flex;
     gap: 24px;
+    margin-bottom: 23px;
 }
 
 .main-four{
@@ -283,9 +283,6 @@ display: flex;
     border-radius: 0px 0px 4px 4px;
 }
 
-.img-list{
-    margin-bottom: 23px;
-}
 
 .text-card{
     display: flex;
