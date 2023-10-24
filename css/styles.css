@@ -377,7 +377,7 @@
 }
 
 .tim-icons-link:hover,
-.tim-icons-link:active {
+.tim-icons-link:focus {
     background-color: var(--OCEAN);
 }
 /* ======= /section 3 ======*/
